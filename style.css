@@ -1,0 +1,386 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #2e2e2e;
+  background-color: #f7f2e8;
+}
+
+h1,
+h2,
+h3 {
+  font-family:
+    Palatino Linotype,
+    serif;
+  font-weight: 600;
+}
+
+.logo {
+  width: 100px;
+  height: auto;
+}
+.menu {
+  display: flex;
+  margin-right: 5rem;
+  flex-direction: row;
+  gap: 20px;
+  list-style: none;
+}
+
+nav {
+  width: 100%;
+}
+
+.div-menu-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #7b9d8c;
+}
+
+a {
+  text-decoration: none;
+  color: #2e2e2e;
+  font-weight: 600;
+}
+
+a:hover {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+}
+
+header {
+  width: 100%;
+  height: 70vh;
+  background-image: url(./Hero-img.jpg);
+  background-position: center;
+  background-size: cover;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.hero {
+  background-color: #f7f2e8b4;
+  padding: 15px;
+  height: 10rem;
+  width: 90%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20%;
+}
+
+.herobutton {
+  background-color: #c89b3c;
+  padding: 15px;
+  width: 80%;
+  max-width: 250px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.herobutton:hover {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+.sectionksp {
+  background-color: #fcfbf8;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 20vh;
+}
+
+.textksp {
+  width: 30%;
+  padding: 15px;
+}
+
+.kspitem {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+  width: 30%;
+}
+
+.section-ziele {
+  margin: 20px;
+  text-align: center;
+  min-height: 80vh;
+}
+
+.reiseziele {
+  margin: 25px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.reiseziel {
+  width: 20%;
+}
+
+.ziele-img {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+}
+
+h4 {
+  margin: 5px 0 5px 0;
+}
+
+.section-unterkuenfte {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+
+  margin: 20px;
+  padding: 40px;
+  background-color: #7b9d8c;
+  min-height: 80vh;
+}
+
+.unterkuenfte-links {
+  max-width: 500px;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.unterkuenfte-text,
+.activitaeten-text {
+  width: 100%;
+  margin: 10px 0 10px 0;
+}
+
+.activitaeten-text {
+  text-align: right;
+}
+
+.hotel-img {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+}
+
+.facilities {
+  margin-top: 20px;
+  margin-left: 20px;
+  line-height: 2;
+}
+
+.section-activitaeten {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row-reverse;
+  gap: 50px;
+  min-height: 80vh;
+}
+
+.spa-img {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+}
+
+.spa-links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 500px;
+}
+
+.section-kontakt {
+  margin: 20px;
+  text-align: center;
+  background-color: #7b9d8c;
+  padding: 20px;
+}
+
+form {
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  gap: 1rem;
+  flex-direction: column;
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
+
+.name-input {
+  display: flex;
+}
+
+.contact-input {
+  display: flex;
+}
+
+label {
+  margin: 5px;
+}
+
+#nachricht {
+  width: 20rem;
+  height: 10rem;
+}
+
+#form-button:hover {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+button {
+  background-color: #c89b3c;
+  padding: 15px;
+  color: #2e2e2e;
+  font-weight: 600;
+  width: 10%;
+  margin: 10px;
+  border: 1px solid #c89b3c;
+}
+
+footer {
+  text-align: center;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .div-menu-top {
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+  }
+
+  .logo {
+    width: 120px;
+    height: auto;
+  }
+
+  .menu {
+    flex-direction: column;
+    align-items: center;
+    margin-right: 0;
+    gap: 15px;
+  }
+
+  .hero {
+    width: 95%;
+    height: auto;
+    padding: 30px 20px;
+    gap: 20px;
+    text-align: center;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .sectionksp {
+    flex-direction: column;
+    height: auto;
+    padding: 30px 20px;
+    gap: 30px;
+  }
+
+  .textksp {
+    width: 100%;
+    text-align: center;
+  }
+
+  .kspitem {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+
+  .reiseziele {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .reiseziel {
+    width: 90%;
+  }
+
+  .ziele-img {
+    width: 100%;
+    height: auto;
+  }
+
+  .section-unterkuenfte {
+    flex-direction: column;
+    height: auto;
+    padding: 30px;
+    text-align: center;
+  }
+
+  .unterkuenfte-rechts img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+  }
+
+  .facilities {
+    margin: 20px auto;
+    list-style: none;
+  }
+
+  .section-activitaeten {
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+  }
+
+  .spa-links {
+    width: 90%;
+    text-align: center;
+    align-items: center;
+  }
+
+  .activitaeten-text {
+    width: 100%;
+    text-align: center;
+  }
+
+  .spa-img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+  }
+
+  button {
+    width: 80%;
+    max-width: 160px;
+  }
+
+  .name-input,
+  .contact-input {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+  }
+}
