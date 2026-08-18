@@ -35,9 +35,6 @@ This project was developed following the typical stages of a web design workflow
 
 - HTML5
 - CSS3
-- Flexbox
-- Git
-- GitHub
 
 ## What I Learned
 
